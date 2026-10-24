@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Pantry Manager</string>
+    <string name="home_tagline">Reduce food waste, one meal at a time.</string>
+    <string name="my_pantry">My Pantry</string>
+    <string name="suggested_recipes">Suggested Recipes</string>
+    <string name="settings">Settings</string>
+
+</resources>
