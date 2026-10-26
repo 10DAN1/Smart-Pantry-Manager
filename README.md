@@ -73,6 +73,16 @@ Smart Pantry Manager contains the following screens:
 
 These screens work together to help users manage pantry ingredients and identify recipes they can prepare with the ingredients available.
 
+## Recipe Matching
+
+Smart Pantry Manager compares the ingredients and quantities available in the user's pantry with the requirements of each recipe.
+
+The recipe matching feature helps users identify recipes they can prepare using their available ingredients. A recipe is suggested when the required ingredients and quantities meet the app's matching rules.
+
+The user can select a suggested recipe to open the Recipe Details screen and view further information.
+
+This feature aims to help users make better use of their available ingredients and reduce food waste.
+
 
 ## Developer
 Developed as part of a Mobile App Development assignment.
