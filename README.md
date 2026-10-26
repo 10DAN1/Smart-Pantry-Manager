@@ -83,6 +83,19 @@ The user can select a suggested recipe to open the Recipe Details screen and vie
 
 This feature aims to help users make better use of their available ingredients and reduce food waste.
 
+## Input Validation
+
+Smart Pantry Manager validates user input to help prevent incomplete or invalid data from being saved.
+
+- Ingredient names must be provided.
+- Ingredient quantities must be valid numbers greater than zero.
+- Measurement units must be provided.
+- Profile names must not be empty.
+- Email addresses are validated when entered in the profile settings.
+- Expiry dates are optional when adding or editing ingredients.
+
+These checks improve data quality and help users correct errors before saving information.
+
 
 ## Developer
 Developed as part of a Mobile App Development assignment.
