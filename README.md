@@ -60,6 +60,18 @@ Smart Pantry Manager uses SQLite for local database storage. The pantry database
 
 The app supports adding, viewing, editing, and deleting pantry ingredients. Profile information is stored separately using Android SharedPreferences, allowing saved settings to remain available when the app is reopened.
 
+## Application Screens
+
+Smart Pantry Manager contains the following screens:
+
+1. **Home Screen:** Introduces the application and provides access to its main features.
+2. **My Pantry Screen:** Displays saved pantry ingredients and provides options to add, edit, and delete ingredients.
+3. **Add Ingredient Screen:** Allows users to enter ingredient details, including name, quantity, unit, and expiry date.
+4. **Suggested Recipes Screen:** Displays recipes that match the ingredients and quantities available in the pantry.
+5. **Recipe Details Screen:** Shows additional information about a selected recipe.
+6. **Settings Screen:** Allows users to save and update their profile information.
+
+These screens work together to help users manage pantry ingredients and identify recipes they can prepare with the ingredients available.
 
 
 ## Developer
