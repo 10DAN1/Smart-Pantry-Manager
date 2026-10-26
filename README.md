@@ -96,6 +96,16 @@ Smart Pantry Manager validates user input to help prevent incomplete or invalid 
 
 These checks improve data quality and help users correct errors before saving information.
 
+## Project Documentation
 
-## Developer
-Developed as part of a Mobile App Development assignment.
+Additional project documentation is available in the repository:
+
+- **[Testing Checklist](TESTING.md):** Describes the functional tests for the application's main features.
+- **[Architecture Document](ARCHITECTURE.md):** Explains the application's main components, technologies, and data flow.
+
+## Project Status
+
+Smart Pantry Manager has been implemented and tested using the Android emulator. The project includes pantry management, recipe suggestions, recipe details, and profile settings.
+
+For the final submission, consult the assignment requirements to ensure that the demonstration video, written report, and project ZIP file are included as required.
+
