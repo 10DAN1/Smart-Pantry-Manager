@@ -35,5 +35,19 @@ Smart Pantry Manager is an Android application developed in Java to help users m
 3. Allow Gradle to sync.
 4. Run the app on an Android emulator or compatible device.
 
+## Testing the App
+
+The following tests can be performed to verify the main functionality of Smart Pantry Manager:
+
+1. **Navigation:** Open the app and navigate between the Home, My Pantry, Suggested Recipes, Recipe Details, and Settings screens.
+2. **Add ingredients:** Add an ingredient by entering its name, quantity, unit, and optional expiry date.
+3. **Edit ingredients:** Update the details of an existing pantry ingredient and confirm that the changes are saved.
+4. **Delete ingredients:** Delete an ingredient and verify that it no longer appears in the pantry.
+5. **Input validation:** Try saving an ingredient without a name or with an invalid quantity and confirm that validation is applied.
+6. **Recipe matching:** Add the required ingredients and quantities for a recipe, then verify that the recipe appears in the suggestions. Reduce a required quantity and confirm that the recipe is no longer suggested when the requirements are not met.
+7. **Recipe details:** Open a suggested recipe and check its displayed information.
+8. **Profile settings:** Save profile details, close and reopen Settings, and confirm that the saved information remains available.
+
+
 ## Developer
 Developed as part of a Mobile App Development assignment.
