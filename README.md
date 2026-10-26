@@ -48,6 +48,19 @@ The following tests can be performed to verify the main functionality of Smart P
 7. **Recipe details:** Open a suggested recipe and check its displayed information.
 8. **Profile settings:** Save profile details, close and reopen Settings, and confirm that the saved information remains available.
 
+## Data Storage
+
+Smart Pantry Manager uses SQLite for local database storage. The pantry database stores ingredient information, including:
+
+- **ID:** A unique identifier for each ingredient.
+- **Name:** The name of the ingredient.
+- **Quantity:** The amount of the ingredient available.
+- **Unit:** The measurement unit, such as grams or pieces.
+- **Expiry date:** The ingredient's expiry date, where provided.
+
+The app supports adding, viewing, editing, and deleting pantry ingredients. Profile information is stored separately using Android SharedPreferences, allowing saved settings to remain available when the app is reopened.
+
+
 
 ## Developer
 Developed as part of a Mobile App Development assignment.
